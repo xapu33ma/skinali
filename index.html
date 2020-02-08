@@ -10,10 +10,10 @@
 </head>
 <body>
 
-    <header class="header"
-        <div class="menu menu_active">
+    <header class="header">
+        <div class="menu">
             <div class="container">
-             <nav class="menu__nav">s
+             <nav class="menu__nav">
                  <a href="#" class="menu__link">Главная</a>
                  <a href="#" class="menu__link">Продукция</a>
                  <a href="#" class="menu__link">Каталог</a>
@@ -27,16 +27,15 @@
         <div class="navbar">
             <div class="container">
                <div class="navbar-wrap">
-                <button class="menu-button navbar__menu-button">
+                    <button class="menu-button navbar__menu-button">
                     <span class="menu-button__line"></span>
                     <span class="menu-button__line"></span>
                     <span class="menu-button__line"></span>
-                </button>
-                <div class="logo navbar__logo">
-                    <strong class="logo__text">Мастерская скинали №1</strong>
-                    <span class="logo__description">лучший производитель скинали</span>
-                </div>
-                <!--/.logo navbar__logo-->
+                 </button>
+                    <div class="logo navbar__logo">
+                     <strong class="logo__text">Мастерская скинали №1</strong>
+                     <span class="logo__description">лучший производитель скинали</span>
+                    </div>
                 <div class="navbar__mobile">
                     <a class="navbar__phone" href="tel:+380979128177">+38 097 912 81 77</a>
                     <span class="navbar__work-time navbar__small-text">без выходных 9-21</span>
@@ -47,13 +46,11 @@
                 </div>
                  <button class="button-o navbar__button">Получить консультацию</button>
                </div>
-            </div>
-            <!-- /.container -->    
+            </div>  
         </div>
-        <!-- /.navbar -->
         <div class="hero">
-            <div class="conteiner">
-                <h1 class="hero-title">Гарантия <br>минимальной цены <br>на скинали</h1>
+            <div class="container">
+                <h1 class="hero__title">Гарантия <br>минимальной цены <br>на скинали</h1>
                 <span class="hero__subtitle">от 1000 грн/м2</span>     
                 <button class="button hero__button">Заказать скинали</button>
             </div>      
@@ -62,12 +59,12 @@
     </header>
     <!-- /.header -->
     <main>
-        <section class="offer bg-econdary">
+        <section class="offer bg-secondary">
             <div class="container">
                 <div class="offer__block offer-block">
-                    <h2 class="offer__title">Оставить заявку на расчет</h2>
-                    <span class="offer__subtitle">и получите скидку 30% на изготовления скинали или фартука для кухни</span> 
-                    <form action="#" class="form offer__form">
+                        <h2 class="offer__title">Оставить заявку на расчет</h2>
+                        <span class="offer__subtitle">и получите скидку 30% на изготовления скинали или фартука для кухни</span> 
+                        <form action="#" class="form offer__form">
                     <div class="form__row">
                         <div class="form__group">
                             <label for="" class="form__label">Вид стекла</label>
@@ -83,14 +80,14 @@
                         </div>
                     </div>
                     <div class="form__row form__row-checkbox">
-                       <div class="form__checkbox">
-                        <input type="checkbox" class="checkbox" id="install">
-                           <label class="checkbox-label" for="install">
+                        <div class="form__checkbox">
+                            <input class="checkbox" type="checkbox" id="install">
+                            <label class="checkbox-label" for="install">
                                Монтаж
                             </label>
                         </div>
-                       <div class="form__checkbox">
-                        <input type="checkbox" class="checkbox" id="delivery">
+                        <div class="form__checkbox">
+                           <input class="checkbox" type="checkbox" id="delivery">
                            <label class="checkbox-label" for="delivery">
                                Доставка
                             </label>
@@ -98,13 +95,13 @@
                     </div>
                     <div class="form__row">
                         <div class="form__group">
-                             <input type="text" placeholder="Ваше имя">
+                             <input type="text" class="form__input input" placeholder="Ваше имя">
                         </div>
                         <div class="form__group">
-                             <input type="tel" placeholder="Ваш телефон">
+                             <input type="tel" class="form__input input" placeholder="Ваш телефон">
                         </div>
                         <div class="form__group">
-                             <input type="text" class="button form__button" value="получить скидку">
+                             <input type="submit" class="button form__button" value="получить скидку">
                         </div>
                     </div>
                     </form>

@@ -8,8 +8,8 @@
     &-wrap
         display: flex
         align-items: center
-        border: 1px solid red
         justify-content: space-between
+        min-height: 80px
     &__mobile, &__landline
         text-align: right     
     &__phone
@@ -24,7 +24,6 @@
         font-size: 14px
         color: $text-color-light
         text-decoration: none
-
 .menu
     z-index: 0
     position: fixed
@@ -35,7 +34,7 @@
     background-color: $primary
     color: #fff
     transition: 0.2s
-    transform: translateY(-200%)
+    transform: translateY(-100%)
     opacity: 0
     &_active
         transform: translateY(0)
@@ -49,7 +48,6 @@
         font-size: 17px
         text-transform: touppercase
         color: #ffffff
-        
     &-button
         display: flex
         flex-direction: column
@@ -71,7 +69,7 @@
     &__text
         display: block
         margin-bottom: 5px
-        font: size 18px
+        font-size: 18px
         text-transform: uppercase
         +bold
     &__description
