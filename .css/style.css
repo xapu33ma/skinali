@@ -404,7 +404,7 @@ input[type="checkbox"]:checked + label:before {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .form-checkbox {
+  .form__row-checkbox {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -413,6 +413,7 @@ input[type="checkbox"]:checked + label:before {
   .form__group {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+    width: 100%;
   }
   .form__input {
     margin-bottom: 20px;
