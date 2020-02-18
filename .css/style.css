@@ -668,6 +668,7 @@ input[type="checkbox"]:checked + label:before {
 
 .price-block__card {
   margin-bottom: 10px;
+  max-width: 260px;
 }
 
 .price-card {
